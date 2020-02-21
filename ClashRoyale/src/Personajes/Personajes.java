@@ -3,7 +3,7 @@ package Personajes;
 public class Personajes {
 
 	private int vida;
-	private int daño;
+	private int dano;
 	private int cura;
 	private int tiempo;
 	
@@ -16,7 +16,7 @@ public class Personajes {
 		
 	}
 	
-	public void añadirTiempo() {
+	public void anadirTiempo() {
 		
 	}
 	
