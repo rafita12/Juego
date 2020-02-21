@@ -8,19 +8,19 @@ public class Personajes {
 	private int tiempo;
 	
 	
-	public void atacar() {
+	public void atacar(int dano) {
 		
 	}
 	
-	public void defender() {
+	public void defender(int vida) {
 		
 	}
 	
-	public void anadirTiempo() {
+	public void anadirTiempo(int tiempo) {
 		
 	}
 	
-	public void restarTiempo() {
+	public void restarTiempo(int tiempo) {
 		
 		
 	}
