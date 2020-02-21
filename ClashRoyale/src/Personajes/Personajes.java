@@ -5,8 +5,7 @@ public class Personajes {
 	private int vida;
 	private int daño;
 	private int cura;
-	
-	
+	private int tiempo;
 	
 	
 	public void atacar() {
@@ -17,5 +16,12 @@ public class Personajes {
 		
 	}
 	
-	public void 
+	public void añadirTiempo() {
+		
+	}
+	
+	public void restarTiempo() {
+		
+		
+	}
 }
