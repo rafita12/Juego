@@ -13,7 +13,6 @@ public class Jugador {
 			System.out.println("Elija un personaje");
 			array[i]=sc.nextInt();
 		}
-		
 	}
 	
 	
