@@ -17,7 +17,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 public class contador extends JFrame {
 
-    private static final long serialVersionUID = 3545053785228009472L;
+   private static final long serialVersionUID = 3545053785228009472L;
 
     private JPanel panel;
     private JLabel timeLabel;
