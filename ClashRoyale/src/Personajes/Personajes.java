@@ -2,10 +2,10 @@ package Personajes;
 
 public class Personajes {
 
-	private int vida;
-	private int dano;
+	private int vidaPersonaje;
+	private int danoPersonaje;
 	private int cura;
-	private int tiempo;
+	private int tiempoPersonaje;
 	
 	
 	public void atacar(int dano) {
