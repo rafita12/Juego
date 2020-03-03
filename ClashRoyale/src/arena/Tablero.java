@@ -9,7 +9,7 @@ public class Tablero {
 	        this.tablero=new char [Tamaño][Tamaño];
 	    }
 	    
-	    public void arena() {
+	    public void verTablero() {
 	        
 	        for (int col = 0; col < tablero[0].length * 2 + 2; col++)
 	            System.out.print("-");
