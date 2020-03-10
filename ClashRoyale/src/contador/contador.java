@@ -15,6 +15,8 @@ import javax.swing.Timer;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+@Deprecated
+
 public class contador extends JFrame {
 
    private static final long serialVersionUID = 3545053785228009472L;
