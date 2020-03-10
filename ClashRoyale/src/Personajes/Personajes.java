@@ -8,11 +8,11 @@ public class Personajes {
 	private int tiempoPersonaje;
 	
 	
-	public void atacar(int dano) {
+	public void atacar(int danoPersonaje) {
 		
 	}
 	
-	public void defender(int vida) {
+	public void defender(int vidaPersonaje) {
 		
 	}
 	

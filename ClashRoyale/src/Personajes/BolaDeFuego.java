@@ -1,5 +1,9 @@
 package Personajes;
-
+/**
+*
+* @author Fran
+*
+*/
 public class BolaDeFuego {
 	int dano=75;
 	

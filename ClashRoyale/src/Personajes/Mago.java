@@ -1,5 +1,9 @@
 package Personajes;
-
+/**
+*
+* @author Fran
+*
+*/
 public class Mago {
 	int dano=55;
 	int cura=100;
