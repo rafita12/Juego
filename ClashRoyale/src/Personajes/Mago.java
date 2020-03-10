@@ -12,4 +12,7 @@ public class Mago {
 		this.dano=dano;
 		this.cura=cura;
 	}
+
+
+
 }
