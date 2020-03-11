@@ -5,8 +5,8 @@ package Personajes;
 *
 */
 public class Mago {
-	int dano=55;
-	int cura=100;
+	private int dano=55;
+	private int cura=100;
 	
 	public Mago(int dano,int cura) {
 		this.dano=dano;
