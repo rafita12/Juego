@@ -8,4 +8,6 @@ package Personajes;
 
 public class Principe {
 
+	private int danoPersonaje = 80;
+
 }

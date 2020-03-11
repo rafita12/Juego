@@ -7,5 +7,7 @@ package Personajes;
 */ 
 
 public class Caballero {
+	
+	private int danoPersonaje = 70;
 
 }
