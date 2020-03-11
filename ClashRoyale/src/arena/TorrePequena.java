@@ -11,7 +11,7 @@ public class TorrePequena {
 		this.tamano = new char[tamano][tamano];
 	}
 
-	public void implementarTorreGrande() {
+	public void implementarTorrePequena() {
 
 	
 	 for (int col = 0; col < tamano[0].length * 2 + 2; col++)
