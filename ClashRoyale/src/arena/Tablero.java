@@ -4,9 +4,9 @@ public class Tablero {
 	
 	  private char [][] tablero ;
 
-	    public Tablero(int Tamano){
+	    public Tablero(int tamano){
 	        
-	        this.tablero=new char [Tamano][Tamano];
+	        this.tablero=new char [tamano][tamano];
 	    }
 	    
 	    public void verTablero() {
