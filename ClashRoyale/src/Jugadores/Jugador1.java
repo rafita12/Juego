@@ -9,10 +9,10 @@ public class Jugador1 {
 		}
 	public void elegirPersonajes() {
 		
-		String[] personajes = new String[] {"Arqueros","Bola de Fuego","Bombardero", "Caballero", "Catapulta", };
+		String[] personajes = new String[] {"Arqueros","Bola de Fuego","Bombardero", "Caballero", "Catapulta", "Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla"};
 		String[] strArray2 = {"A","B","C"}; 
 
-		//initialization after declaration
+	//initialization after declaration
 		String[] strArray3 = new String[3];
 		strArray3[0] = "A";
 		strArray3[1] = "B";
