@@ -1,15 +1,20 @@
 package Personajes;
 
 /**
-*
-* @author Francisco Javier Francés Pardo
-*
-*/ 
+ *
+ * @author Francisco Javier Francés Pardo
+ *
+ */
 
 public class Gigante {
-	
-	private int danoPersonaje = 100;
-	
+	int dano = 100;
 
+	public Gigante(int dano) {
+		this.dano = dano;
+	}
 
+	public int dano(int dano) {
+		return dano;
+
+	}
 }
