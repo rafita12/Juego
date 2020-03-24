@@ -10,4 +10,6 @@ public class BolaDeFuego {
 	public  BolaDeFuego(int dano) {
 		this.dano=dano;
 	}
+
+	
 }

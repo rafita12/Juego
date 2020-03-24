@@ -9,6 +9,7 @@ public class Personajes {
 	
 	public void atacar(int danoPersonaje) {
 		
+	
 		
 	}
 	
@@ -18,5 +19,9 @@ public class Personajes {
 		
 	}
 	
+	public  void BolaDeFuego(int dano) {
+		this.danoPersonaje=danoPersonaje;
+	}
 
+	
 }
