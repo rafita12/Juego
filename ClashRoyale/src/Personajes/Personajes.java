@@ -19,9 +19,5 @@ public class Personajes {
 		
 	}
 	
-	public  void BolaDeFuego(int dano) {
-		this.danoPersonaje=danoPersonaje;
-	}
-
 	
 }

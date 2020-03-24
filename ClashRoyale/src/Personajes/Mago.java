@@ -13,6 +13,12 @@ public class Mago {
 		this.cura=cura;
 	}
 
-
-
+	public int dano(int dano) {
+		return dano;
+	}
+	
+	public int cura(int cura) {
+		return cura;
+	}
+	
 }

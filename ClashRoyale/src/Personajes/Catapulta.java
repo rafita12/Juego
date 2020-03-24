@@ -11,6 +11,9 @@ public class Catapulta {
 		this.dano=dano;
 	}
 
-
+public int dano(int dano) {
+	return dano;
+	
+}
 
 }

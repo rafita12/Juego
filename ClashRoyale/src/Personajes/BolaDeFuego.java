@@ -11,5 +11,8 @@ public class BolaDeFuego {
 		this.dano=dano;
 	}
 
-	
+	public int dano(int dano) {
+		return dano;
+		
+	}
 }
