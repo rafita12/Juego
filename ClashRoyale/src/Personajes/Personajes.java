@@ -7,6 +7,9 @@ public class Personajes {
 	
 	//El metodo atacar restara vida a la torre del otro jugador.
 	
+	private String[] Personajes = new String[] { "Arqueros", "Bola de Fuego", "Bombardero", "Caballero", "Catapulta",
+			"Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla" };
+	
 	public void atacar(int danoPersonaje) {
 		
 	

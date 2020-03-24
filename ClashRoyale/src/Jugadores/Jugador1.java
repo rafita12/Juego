@@ -6,18 +6,11 @@ import Personajes.Personajes;
 
 public class Jugador1 {
 	private boolean turno;
-
-	public void usaPersonaje() {
-
-	}
-
-	public void elegirPersonajes() {
-
-	}
-
-	private String[] Personajes = new String[] { "Arqueros", "Bola de Fuego", "Bombardero", "Caballero", "Catapulta",
-			"Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla" };
+	private Personajes[]listaPersonajes;
 	private int nPersonajes;
+
+	
+public Jugador1()[this.listaPersonajes=new Personajes[11]];
 
 	public void eliminaPersonaje(Personajes pj) {
 
