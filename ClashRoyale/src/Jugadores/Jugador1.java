@@ -1,27 +1,50 @@
 package Jugadores;
 
+import java.util.Scanner;
+
+import Personajes.Personajes;
+
 public class Jugador1 {
 	private boolean turno;
-	
+
 	public void usaPersonaje() {
-		
-		
-		}
-	public void elegirPersonajes() {
-		
-		String[] personajes = new String[] {"Arqueros","Bola de Fuego","Bombardero", "Caballero", "Catapulta", "Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla"};
-		String[] strArray2 = {"A","B","C"}; 
-
-	//initialization after declaration
-		String[] strArray3 = new String[3];
-		strArray3[0] = "A";
-		strArray3[1] = "B";
-		strArray3[2] = "C";
-
 
 	}
-}
-	
-	
-	
 
+	public void elegirPersonajes() {
+
+	}
+
+	private String[] Personajes = new String[] { "Arqueros", "Bola de Fuego", "Bombardero", "Caballero", "Catapulta",
+			"Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla" };
+	private int nPersonajes;
+
+	public void eliminaPersonaje(Personajes pj) {
+
+		int inx, i;
+		inx = buscaPersonajes(pj);
+
+		if (inx == -1) {
+			this.nPersonajes--;
+		}
+		nPersonajes--;
+		for (i = inx; i < nPersonajes; i++) {
+			Personajes[i] = Personajes[i + 1];
+		}
+		Personajes[i] = null;
+	}
+
+	public int buscaPersonajes(Personajes pj) {
+
+		int inx = -1;
+		boolean enc = false;
+		for (int i = 0; !enc && i < Personajes.length; i++) {
+			if (Personajes[i].equals(pj)) {
+				enc = true;
+				inx = i;
+			}
+		}
+		return inx;
+	}
+
+}
