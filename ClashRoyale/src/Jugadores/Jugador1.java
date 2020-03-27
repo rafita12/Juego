@@ -5,39 +5,42 @@ import java.util.Scanner;
 import Personajes.Personajes;
 
 public class Jugador1 {
-	private boolean turno;
-	private Personajes[]listaPersonajes;
-	private int nPersonajes;
+    private boolean turno;
+    private Personajes[]listaPersonajes;
+    private int nPersonajes;
 
-	
-public Jugador1()[this.listaPersonajes=new Personajes[11]];
 
-	public void eliminaPersonaje(Personajes pj) {
+public Jugador1(){
+    this.listaPersonajes=new Personajes[11];
+    this.nPersonajes=0;
+ }
 
-		int inx, i;
-		inx = buscaPersonajes(pj);
+    public void eliminaPersonaje(Personajes pj) {
 
-		if (inx == -1) {
-			this.nPersonajes--;
-		}
-		nPersonajes--;
-		for (i = inx; i < nPersonajes; i++) {
-			Personajes[i] = Personajes[i + 1];
-		}
-		Personajes[i] = null;
-	}
+        int inx, i;
+        inx = buscaPersonajes(pj);
 
-	public int buscaPersonajes(Personajes pj) {
+        if (inx == -1) {
+            this.nPersonajes--;
+        }
+        nPersonajes--;
+        for (i = inx; i < nPersonajes; i++) {
+            listaPersonajes[i] = listaPersonajes[i + 1];
+        }
+        listaPersonajes[i] = null;
+    }
 
-		int inx = -1;
-		boolean enc = false;
-		for (int i = 0; !enc && i < Personajes.length; i++) {
-			if (Personajes[i].equals(pj)) {
-				enc = true;
-				inx = i;
-			}
-		}
-		return inx;
-	}
+    public int buscaPersonajes(Personajes pj) {
+
+        int inx = -1;
+        boolean enc = false;
+        for (int i = 0; !enc && i < Personajes.length; i++) {
+            if (listaPersonajes[i].equals(pj)) {
+                enc = true;
+                inx = i;
+            }
+        }
+        return inx;
+    }
 
 }
