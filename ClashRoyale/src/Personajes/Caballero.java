@@ -2,7 +2,7 @@ package Personajes;
 
 /**
  *
- * @author Francisco Javier Francés Pardo
+ * @author Francisco Javier Frances Pardo
  *
  */
 

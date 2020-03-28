@@ -1,3 +1,9 @@
+/**
+ *
+ * @author Francisco Javier Frances Pardo
+ *
+ */
+
 package Jugadores;
 
 import java.util.Scanner;
@@ -5,7 +11,7 @@ import java.util.Scanner;
 import Personajes.Personajes;
 
 public class Jugador1 {
-    private boolean turno;
+    private int turno;
     private Personajes[]listaPersonajes;
     private int nPersonajes;
 
@@ -31,10 +37,14 @@ public Jugador1(){
     }
 
     public int buscaPersonajes(Personajes pj) {
+    	
 
         int inx = -1;
         boolean enc = false;
         for (int i = 0; !enc && i < listaPersonajes.length; i++) {
+        System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: "+ listaPersonajes);
+        Scanner nj = new Scanner(System.in);
+        
             if (listaPersonajes[i].equals(pj)) {
                 enc = true;
                 inx = i;
@@ -43,4 +53,43 @@ public Jugador1(){
         return inx;
     }
 
+    
+public void turnoJugador(){
+    
+    if(turno==1) {
+    	System.out.println("Es el turno del Jugador 1");
+    	turno++;
+    }else if (turno==2) {
+    	System.out.println("Es el turno del jugador 2");
+    	turno--;
+    	}
+    
+    
+    
+    
+    }
+    
+    
+    
 }
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
