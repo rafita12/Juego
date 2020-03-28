@@ -3,7 +3,6 @@ package Jugadores;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		ListaPersonajes lp = new ListaPersonajes();
 		
