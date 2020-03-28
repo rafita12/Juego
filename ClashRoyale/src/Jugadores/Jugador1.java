@@ -11,7 +11,7 @@ import java.util.Scanner;
 import Personajes.Personajes;
 
 public class Jugador1 {
-	private Personajes[] listaPersonajes;
+	private Personajes [] listaPersonajes;
 	private int nPersonajes;
 
 	public Jugador1() {
