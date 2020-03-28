@@ -39,8 +39,7 @@ public class Jugador1 {
 		int inx = -1;
 		boolean enc = false;
 		for (int i = 0; !enc && i < listaPersonajes.length; i++) {
-			System.out
-					.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
+			System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
 			Scanner nj = new Scanner(System.in);
 
 			if (listaPersonajes[i].equals(pj)) {
