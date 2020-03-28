@@ -8,18 +8,18 @@ package Jugadores;
 
 import java.util.Scanner;
 
-import Personajes.Personajes;
+import Personajes.Pers;
 
 public class Jugador1 {
-	private Personajes [] listaPersonajes;
+	private Pers [] listaPersonajes;
 	private int nPersonajes;
 
 	public Jugador1() {
-		this.listaPersonajes = new Personajes[11];
+		this.listaPersonajes = new Pers[11];
 		this.nPersonajes = 0;
 	}
 
-	public void eliminaPersonaje(Personajes pj) {
+	public void eliminaPersonaje(Pers pj) {
 
 		int inx, i;
 		inx = buscaPersonajes(pj);
@@ -34,7 +34,7 @@ public class Jugador1 {
 		listaPersonajes[i] = null;
 	}
 
-	public int buscaPersonajes(Personajes pj) {
+	public int buscaPersonajes(Pers pj) {
 
 		int inx = -1;
 		boolean enc = false;

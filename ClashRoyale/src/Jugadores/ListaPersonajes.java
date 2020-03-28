@@ -1,19 +1,23 @@
 package Jugadores;
 
-import Personajes.Personajes;
+import Personajes.Pers;
 
 public class ListaPersonajes {
 	
-	public private Personajes [] listaPersonajes;
+	public private Pers [] listaPersonajes;
 	private int nPersonajes;
 
 	public ListaPersonajes() {
-		this.listaPersonajes = new Personajes[11];
+		this.listaPersonajes = new Pers[11];
 		this.nPersonajes = 0;
 	}
 
 	
-	public void eliminaPersonaje(Personajes pj) {
+	public void elegir(Personajes personajes){
+		
+	};
+	
+	public void eliminaPersonaje(Pers pj) {
 
 		int inx, i;
 		inx = buscaPersonajes(pj);
@@ -28,7 +32,7 @@ public class ListaPersonajes {
 		listaPersonajes[i] = null;
 	}
 
-	public int buscaPersonajes(Personajes pj) {
+	public int buscaPersonajes(Pers pj) {
 
 		int inx = -1;
 		boolean enc = false;

@@ -1,6 +1,6 @@
 package Personajes;
 
-public class Personajes {
+public class Pers {
 
 	private int danoPersonaje;
 	private int cura;
