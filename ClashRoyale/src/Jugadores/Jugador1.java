@@ -34,7 +34,7 @@ public Jugador1(){
 
         int inx = -1;
         boolean enc = false;
-        for (int i = 0; !enc && i < Personajes.length; i++) {
+        for (int i = 0; !enc && i < listaPersonajes.length; i++) {
             if (listaPersonajes[i].equals(pj)) {
                 enc = true;
                 inx = i;
