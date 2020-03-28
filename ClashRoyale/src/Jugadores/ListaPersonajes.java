@@ -1,10 +1,12 @@
 package Jugadores;
 
+import java.util.Scanner;
+
 import Personajes.Pers;
 
 public class ListaPersonajes {
 	
-	public private Pers [] listaPersonajes;
+	private Pers [] listaPersonajes;
 	private int nPersonajes;
 
 	public ListaPersonajes() {
