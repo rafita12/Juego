@@ -4,7 +4,7 @@ public class Tablero {
 	
 	  private char [][] tablero ;
 
-	    public Tablero(int tamano){
+	  public Tablero(int tamano){
 	        
 	        this.tablero=new char [tamano][tamano];
 	    }
@@ -28,6 +28,5 @@ public class Tablero {
 	}
 	
 	}
-
 
 

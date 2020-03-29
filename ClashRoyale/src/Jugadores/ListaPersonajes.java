@@ -1,3 +1,7 @@
+/**
+ *@author Rafael Martín Berenguer
+ */
+
 package Jugadores;
 
 import java.util.Scanner;
