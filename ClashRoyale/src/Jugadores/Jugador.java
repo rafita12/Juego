@@ -1,7 +1,8 @@
 /**
  *@author Francisco Javier Frances Pardo
- *
- *
+ *Constructor con 2 parametro
+ *@param listaPersonajes Array con los nombres de los personajes
+ *@param nPersonajes Numero de personajes
  */
 
 package Jugadores;
@@ -46,7 +47,11 @@ public class Jugador {
 	
 	/**
 	 *El metodo buscaPersonajes busca al personaje en el array para ser borrado posteriormente
-	 * 
+	 *@return
+	 *         <ul>
+	 *         <li>true: Encuentra el personaje </li>
+	 *         <li>false: No encuentra el personaje </li>
+	 *         </ul> 
 	 *
 	 */
 	
@@ -55,8 +60,6 @@ public class Jugador {
 		int inx = -1;
 		boolean enc = false;
 		for (int i = 0; !enc && i < listaPersonajes.length; i++) {
-			System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
-			Scanner nj = new Scanner(System.in);
 
 			if (listaPersonajes[i].equals(pj)) {
 				enc = true;
@@ -68,9 +71,14 @@ public class Jugador {
 
 	/**
 	 *El metodo turnoJugador asigna el turno a los jugadores
-	 * 
+	 *@return
+	 *         <ul>
+	 *         <li>1: es el turno del jugador 1 </li>
+	 *         <li>2: es el turno del jugador 2 </li>
+	 *         </ul>
 	 *
 	 */
+	
 	
 	public void turnoJugador() {
 		int turno = (int)(Math.random()*1+1);		
