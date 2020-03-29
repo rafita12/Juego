@@ -7,6 +7,8 @@
 
 package Jugadores;
 
+import java.util.Scanner;
+
 import Personajes.Pers;
 
 public class Jugador {
@@ -16,30 +18,6 @@ public class Jugador {
 	public Jugador() {
 		this.listaPersonajes = new Pers[11];
 		this.nPersonajes = 0;
-	}
-
-	
-	
-	
-	/**
-	 *El metodo eliminaPersonaje elimina al personaje seleccionado del array
-	 * 
-	 *
-	 */
-
-	public void eliminaPersonaje(Pers pj) {
-
-		int inx, i;
-		inx = buscaPersonajes(pj);
-
-		if (inx == -1) {
-			this.nPersonajes--;
-		}
-		nPersonajes--;
-		for (i = inx; i < nPersonajes; i++) {
-			listaPersonajes[i] = listaPersonajes[i + 1];
-		}
-		listaPersonajes[i] = null;
 	}
 
 	
@@ -53,19 +31,22 @@ public class Jugador {
 	 *
 	 */
 	
-	public int buscaPersonajes(Pers pj) {
+		public int buscaPersonajes(Personajes personaje) {
 
-		int inx = -1;
-		boolean enc = false;
-		for (int i = 0; !enc && i < listaPersonajes.length; i++) {
+			int inx = -1;
+			boolean enc = false;
+			for (int i = 0; !enc && i < listaPersonajes.length; i++) {
+				System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
+				Scanner nj = new Scanner(System.in);
 
-			if (listaPersonajes[i].equals(pj)) {
-				enc = true;
-				inx = i;
+				if (listaPersonajes[i].equals(personaje)) {
+					enc = true;
+					inx = i;
+				}
 			}
+			return inx;
 		}
-		return inx;
-	}
+	
 
 	/**
 	 *El metodo turnoJugador asigna el turno a los jugadores
