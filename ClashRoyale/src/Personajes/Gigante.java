@@ -7,7 +7,7 @@ package Personajes;
  */
 
 public class Gigante {
-	int dano = 100;
+	private int dano = 100;
 
 	public Gigante(int dano) {
 		this.dano = dano;

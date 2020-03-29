@@ -7,7 +7,7 @@ package Personajes;
  */
 
 public class Caballero {
-	int dano = 70;
+	private int dano = 70;
 
 	public Caballero(int dano) {
 		this.dano = dano;

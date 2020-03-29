@@ -7,7 +7,7 @@ package Personajes;
  */
 
 public class Principe {
-	int dano = 80;
+	private int dano = 80;
 
 	public Principe(int dano) {
 		this.dano = dano;
