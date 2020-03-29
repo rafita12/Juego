@@ -1,9 +1,9 @@
 package Personajes;
 /**
-*
-* @author Fran
-*
-*/
+ *@author Fran
+ *Constructor con 1 parametro
+ *@param dano   daño de la unidad
+ */
 public class BolaDeFuego extends Jugadores.Personajes{
 	int dano=75;
 	

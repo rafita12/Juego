@@ -1,9 +1,9 @@
 package Personajes;
 
 /**
- *
- * @author Fran
- *
+ *@author Francisco Javier Frances Pardo
+ *Constructor con 1 parametro
+ *@param dano   daño de la unidad
  */
 public class Catapulta  extends Jugadores.Personajes {
 	int dano = 75;
