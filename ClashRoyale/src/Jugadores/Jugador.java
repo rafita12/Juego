@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 import Personajes.Pers;
 
-public class Jugador1 {
+public class Jugador {
 	private Pers [] listaPersonajes;
 	private int nPersonajes;
 
-	public Jugador1() {
+	public Jugador() {
 		this.listaPersonajes = new Pers[11];
 		this.nPersonajes = 0;
 	}
