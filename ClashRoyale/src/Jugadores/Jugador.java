@@ -7,8 +7,6 @@
 
 package Jugadores;
 
-import java.util.Scanner;
-
 import Personajes.Pers;
 
 public class Jugador {
