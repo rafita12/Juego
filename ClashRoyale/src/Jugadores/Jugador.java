@@ -14,10 +14,11 @@ import Personajes.Pers;
 public class Jugador {
 	private Pers [] listaPersonajes;
 	private int nPersonajes;
-
+	private int turno = (int)(Math.random()*1+1);	
 	public Jugador() {
 		this.listaPersonajes = new Pers[11];
 		this.nPersonajes = 0;
+		this.turno=0;
 	}
 
 	
@@ -60,8 +61,7 @@ public class Jugador {
 	
 	
 	public void turnoJugador() {
-		int turno = (int)(Math.random()*1+1);		
-		
+	
 		if (turno == 1) {
 			System.out.println("Es el turno del Jugador 1");
 			turno++;

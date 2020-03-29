@@ -2,11 +2,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import Jugadores.Jugador;
+
 class JugadorTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void turnoJugadortest() {
+		Jugador jugador =new Jugador("Arqueros",2,1);
+		assertEquals("Es el turno del Jugador 1",jugador.turnoJugador());
 	}
 
 }
+ 
