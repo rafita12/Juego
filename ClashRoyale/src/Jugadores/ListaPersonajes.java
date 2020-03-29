@@ -15,14 +15,10 @@ public class ListaPersonajes {
 	}
 
 	
-	public void elegir(Personajes personajes){
+	public void elegir(Personajes personaje){
 		
-	};
-	
-	public void eliminaPersonaje(Pers pj) {
-
 		int inx, i;
-		inx = buscaPersonajes(pj);
+		inx = buscaPersonajes(personaje);
 
 		if (inx == -1) {
 			this.nPersonajes--;
@@ -31,10 +27,11 @@ public class ListaPersonajes {
 		for (i = inx; i < nPersonajes; i++) {
 			listaPersonajes[i] = listaPersonajes[i + 1];
 		}
-		listaPersonajes[i] = null;
+		
 	}
 
-	public int buscaPersonajes(Pers pj) {
+
+	public int buscaPersonajes(Personajes personaje) {
 
 		int inx = -1;
 		boolean enc = false;
@@ -42,7 +39,7 @@ public class ListaPersonajes {
 			System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
 			Scanner nj = new Scanner(System.in);
 
-			if (listaPersonajes[i].equals(pj)) {
+			if (listaPersonajes[i].equals(personaje)) {
 				enc = true;
 				inx = i;
 			}

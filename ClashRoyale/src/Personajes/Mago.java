@@ -5,11 +5,12 @@ package Personajes;
  * @author Fran
  *
  */
-public class Mago {
+public class Mago extends Jugadores.Personajes {
 	private int dano = 55;
 	private int cura = 100;
 
-	public Mago(int dano, int cura) {
+	public Mago(String nombre, int dano, int cura) {
+		super(nombre);
 		this.dano = dano;
 		this.cura = cura;
 	}

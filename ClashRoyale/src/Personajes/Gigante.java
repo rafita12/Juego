@@ -6,10 +6,11 @@ package Personajes;
  *@param dano   daño de la unidad
  */
 
-public class Gigante {
+public class Gigante extends Jugadores.Personajes {
 	private int dano = 100;
 
-	public Gigante(int dano) {
+	public Gigante(String nombre, int dano) {
+		super(nombre);
 		this.dano = dano;
 	}
 

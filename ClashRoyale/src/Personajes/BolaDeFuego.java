@@ -4,10 +4,11 @@ package Personajes;
 * @author Fran
 *
 */
-public class BolaDeFuego {
+public class BolaDeFuego extends Jugadores.Personajes{
 	int dano=75;
 	
-	public  BolaDeFuego(int dano) {
+	public  BolaDeFuego(String nombre, int dano) {
+		super(nombre);
 		this.dano=dano;
 	}
 
