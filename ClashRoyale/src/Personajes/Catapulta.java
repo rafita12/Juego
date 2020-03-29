@@ -5,10 +5,11 @@ package Personajes;
  * @author Fran
  *
  */
-public class Catapulta {
+public class Catapulta  extends Jugadores.Personajes {
 	int dano = 75;
 
-	public Catapulta(int dano) {
+	public Catapulta(String nombre, int dano) {
+		super(nombre);
 		this.dano = dano;
 	}
 
