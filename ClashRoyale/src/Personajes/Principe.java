@@ -2,8 +2,8 @@ package Personajes;
 
 /**
  *@author Francisco Javier Frances Pardo
+ *Constructor con 1 parametro
  *@param dano   daño de la unidad
- *
  */
 
 
