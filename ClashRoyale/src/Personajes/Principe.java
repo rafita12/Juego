@@ -1,10 +1,11 @@
 package Personajes;
 
 /**
- *
- * @author Francisco Javier FrancÃ©s Pardo
+ *@author Francisco Javier Frances Pardo
+ *@param dano   daño de la unidad
  *
  */
+
 
 public class Principe {
 	private int dano = 80;
