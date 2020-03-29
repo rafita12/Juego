@@ -23,11 +23,26 @@ public class Tablero {
 	        for (int fil = 0; fil < tablero.length; fil++) {
 	            System.out.print("|");
 	            for (int col = 0; col < tablero[fil].length; col++)
-	            	if (col>2 && col<6 && fil==1) {
+	            	if (col>6 && col<12 && fil==1) {
 						System.out.print("--");
 					}
-	            	else
-	                        System.out.print("  ");
+	            	else if (fil == 2 && col == 7) {
+	            		System.out.print("| ");
+					}else if (fil == 2 && col == 11) {
+	            		System.out.print(" |");
+					}else if (fil == 3 && col == 7) {
+	            		System.out.print("| ");
+					}else if (fil == 3 && col == 11) {
+	            		System.out.print(" |");
+					}else if (fil == 4 && col == 7) {
+	            		System.out.print("| ");
+					}else if (fil == 4 && col == 11) {
+	            		System.out.print(" |");
+					}else if(col>6 && col<12 && fil==5) {
+						System.out.print("--");
+					}else
+						System.out.print("  ");
+	            
 	            
 	                    
 	            System.out.println("|");

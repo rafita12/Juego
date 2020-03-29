@@ -6,7 +6,7 @@ public class PruebaTabla {
 		TorreGrande tg1=new TorreGrande(800,3);
 		TorrePequena tp1=new TorrePequena(400,1);
 		TorrePequena tp2=new TorrePequena(400,1);
-		Tablero t=new Tablero(15);
+		Tablero t=new Tablero(20);
 		TorreGrande tg2=new TorreGrande(800,3);
 		TorrePequena tp3=new TorrePequena(400,1);
 		TorrePequena tp4=new TorrePequena(400,1);
