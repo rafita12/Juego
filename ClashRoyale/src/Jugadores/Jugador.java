@@ -1,6 +1,6 @@
 /**
+ *@author Francisco Javier Frances Pardo
  *
- * @author Francisco Javier Frances Pardo
  *
  */
 
@@ -19,6 +19,15 @@ public class Jugador {
 		this.nPersonajes = 0;
 	}
 
+	
+	
+	
+	/**
+	 *El metodo eliminaPersonaje elimina al personaje seleccionado del array
+	 * 
+	 *
+	 */
+
 	public void eliminaPersonaje(Pers pj) {
 
 		int inx, i;
@@ -34,6 +43,13 @@ public class Jugador {
 		listaPersonajes[i] = null;
 	}
 
+	
+	/**
+	 *El metodo buscaPersonajes busca al personaje en el array para ser borrado posteriormente
+	 * 
+	 *
+	 */
+	
 	public int buscaPersonajes(Pers pj) {
 
 		int inx = -1;
@@ -50,6 +66,12 @@ public class Jugador {
 		return inx;
 	}
 
+	/**
+	 *El metodo turnoJugador asigna el turno a los jugadores
+	 * 
+	 *
+	 */
+	
 	public void turnoJugador() {
 		int turno = (int)(Math.random()*1+1);		
 		
