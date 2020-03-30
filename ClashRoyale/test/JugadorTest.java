@@ -14,8 +14,8 @@ class JugadorTest {
 
 	@Test
 	public void turnoJugadortest() {
-		Jugador jg =new Jugador("Arqueros",1);
-		assertEquals("Es el turno del Jugador 1",jg.turnoJugador());
+		Jugador jg =new Jugador("Bombardero",1);
+		assertEquals(1,jg.turnoJugador());
 	}
 
 }
