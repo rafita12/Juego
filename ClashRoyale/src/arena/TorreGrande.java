@@ -15,6 +15,12 @@ public class TorreGrande {
 		
 	}
 
+	public TorreGrande(int vida, int defensa) {
+		this.vida = 1000;
+		this.defensa = 500;
+		
+	}
+	
 	public int getVida() {
 		return vida;
 	}
