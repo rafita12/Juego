@@ -1,3 +1,10 @@
+/**
+ *@author Rafael Martín Berenguer
+ *
+ *Pruebas de la clase Torre grande
+ * 
+ */
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;

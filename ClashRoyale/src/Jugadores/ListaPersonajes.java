@@ -4,9 +4,6 @@
 
 package Jugadores;
 
-import java.util.Scanner;
-
-import Personajes.Pers;
 
 public class ListaPersonajes {
 	
@@ -40,6 +37,24 @@ public class ListaPersonajes {
 			else 
 				this.listaPersonajes[nPersonajes++]=p;
 	}
+		
+		
+		/**
+		 *El metodo arrayCompleto para ver si funciona correctamente las pruebas
+		 *de esta clase
+		 *
+		 */
+		
+		public String arrayCompleto(){
+			
+			String error = null;
+			if (this.nPersonajes == 6)
+				error = "No hay espacio para más de 6 personajes.";
+			
+			return error;
+			
+	}
+		
 		
 		/**
 		 * 

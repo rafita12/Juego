@@ -20,6 +20,12 @@ package Jugadores;
 			this.nombre = nombre;
 	}
 		
+		/**
+		 *El metodo pruebaPers para ver si funciona correctamente las pruebas
+		 *de esta clase
+		 *
+		 */
+		
 		public String pruebaPers(){
 			
 			return this.nombre;
