@@ -7,16 +7,14 @@
 
 package Jugadores;
 
-import java.util.Scanner;
-
 import Personajes.Pers;
 
 public class Jugador {
 	private Pers [] listaPersonajes;
-	private int turno = (int)(Math.random()*1+1);	
+	private int turno;	
 	public Jugador() {
 		this.listaPersonajes = new Pers[11];
-		this.turno=0;
+		this.turno=turno;
 	}
 
 	
@@ -35,9 +33,6 @@ public class Jugador {
 			int inx = -1;
 			boolean enc = false;
 			for (int i = 0; !enc && i < listaPersonajes.length; i++) {
-				System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
-				Scanner nj = new Scanner(System.in);
-
 				if (listaPersonajes[i].equals(personaje)) {
 					enc = true;
 					inx = i;
@@ -58,15 +53,17 @@ public class Jugador {
 	 */
 	
 	
-	public void turnoJugador() {
-	
+	public int turnoJugador(int turno) {
+		turno = (int)(Math.random()*1+1);
 		if (turno == 1) {
-			System.out.println("Es el turno del Jugador 1");
 			turno++;
+
 		} else if (turno == 2) {
-			System.out.println("Es el turno del jugador 2");
 			turno--;
+
 		}
+		System.out.println("Es el turno del jugador " + turno);
+		return turno;
 
 	}
 
