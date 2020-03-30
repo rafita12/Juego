@@ -1,3 +1,7 @@
+/**
+ *@author Rafael Martín Berenguer
+ */
+
 package arena;
 
 public class TorrePequena {

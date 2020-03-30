@@ -1,3 +1,7 @@
+/**
+ *@author Rafael Martín Berenguer
+ */
+
 package Jugadores;
 
 public class Principal {
