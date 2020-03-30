@@ -7,11 +7,11 @@ package Personajes;
  */
 
 public class Caballero extends Jugadores.Personajes {
-	private int dano = 70;
+	private int dano;
 
-	public Caballero(String nombre, int dano) {
+	public Caballero(String nombre) {
 		super(nombre);
-		this.dano = dano;
+		this.dano = 70;
 	}
 
 	public int dano(int dano) {
