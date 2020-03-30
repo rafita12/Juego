@@ -17,12 +17,28 @@ public class Mago extends Jugadores.Personajes {
 		this.cura = 100;
 	}
 
-	public int dano(int dano) {
+	
+	public Mago(String nombre, int dano, int cura) {
+		super(nombre);
+		this.dano=dano;
+	}
+
+	public int getDano() {
 		return dano;
 	}
 
-	public int cura(int cura) {
-		return cura;
+	public void setDano(int dano) {
+		this.dano = dano;
 	}
 
+	public int getCura() {
+		return dano;
+	}
+
+	public void setCura(int cura) {
+		this.cura = cura;
+	}
+
+	
 }
+

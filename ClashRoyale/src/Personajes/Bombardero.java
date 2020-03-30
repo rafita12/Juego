@@ -14,9 +14,20 @@ public class Bombardero extends Jugadores.Personajes{
 		super(nombre);
 		this.dano=30;
 	}
-
-	public int dano(int dano) {
-		return dano;
-		
+	
+	public Bombardero(String nombre, int dano) {
+		super(nombre);
+		this.dano=dano;
 	}
+
+	public int getDano() {
+		return dano;
+	}
+
+	public void setDano(int dano) {
+		this.dano = dano;
+	}
+
+	
 }
+

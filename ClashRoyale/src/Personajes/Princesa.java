@@ -14,7 +14,20 @@ public class Princesa  extends Jugadores.Personajes {
 		this.cura = 150;
 	}
 
-	public int cura(int cura) {
+	
+	public Princesa(String nombre, int cura) {
+		super(nombre);
+		this.cura=cura;
+	}
+
+	public int getDano() {
 		return cura;
 	}
+
+	public void setDano(int cura) {
+		this.cura = cura;
+	}
+
+	
 }
+

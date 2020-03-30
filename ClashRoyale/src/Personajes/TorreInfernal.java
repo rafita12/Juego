@@ -15,7 +15,19 @@ public class TorreInfernal  extends Jugadores.Personajes {
 		this.cura = 75;
 	}
 
-	public int cura(int cura) {
+	public TorreInfernal(String nombre, int cura) {
+		super(nombre);
+		this.cura=cura;
+	}
+
+	public int getCura() {
 		return cura;
 	}
+
+	public void setCura(int cura) {
+		this.cura = cura;
+	}
+
+	
 }
+

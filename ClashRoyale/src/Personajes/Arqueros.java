@@ -4,7 +4,6 @@
  * @param dano   daño de la unidad
  */
 
-
 package Personajes;
 
 public class Arqueros extends Jugadores.Personajes {

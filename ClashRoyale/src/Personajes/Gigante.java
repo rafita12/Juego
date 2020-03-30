@@ -15,8 +15,20 @@ public class Gigante extends Jugadores.Personajes {
 		this.dano = 100;
 	}
 
-	public int dano(int dano) {
-		return dano;
-
+	
+	public Gigante(String nombre, int dano) {
+		super(nombre);
+		this.dano=dano;
 	}
+
+	public int getDano() {
+		return dano;
+	}
+
+	public void setDano(int dano) {
+		this.dano = dano;
+	}
+
+	
 }
+

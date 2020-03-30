@@ -15,8 +15,19 @@ public class Principe  extends Jugadores.Personajes {
 
 	}
 
-	public int dano(int dano) {
-		return dano;
-
+	public Principe(String nombre, int dano) {
+		super(nombre);
+		this.dano=dano;
 	}
+
+	public int getDano() {
+		return dano;
+	}
+
+	public void setDano(int dano) {
+		this.dano = dano;
+	}
+
+	
 }
+
