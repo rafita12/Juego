@@ -19,8 +19,8 @@ public class Pers {
 	 * @param danoPersonaje daño del personaje
 	 */
 	
-	public void atacar(int dano) {
-		
+	public int atacar() {
+		return dano;
 	}
 	
 	/**
@@ -28,8 +28,8 @@ public class Pers {
 	 * @param cura daño del personaje
 	 */
 	
-	public void defender(int cura) {
-		
+	public int defender() {
+		return cura;
 	}
 	
 	
