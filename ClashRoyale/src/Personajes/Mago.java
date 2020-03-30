@@ -1,11 +1,12 @@
-package Personajes;
-
 /**
  *@author Francisco Javier Frances Pardo
  *Constructor con 1 parametro
  *@param dano   daño de la unidad
  *@param cura   cura de la torre
  */
+
+package Personajes;
+
 public class Mago extends Jugadores.Personajes {
 	private int dano = 55;
 	private int cura = 100;
