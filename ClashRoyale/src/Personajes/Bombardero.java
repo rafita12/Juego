@@ -6,13 +6,13 @@
 
 package Personajes;
 
-public class Bombardero  extends Jugadores.Personajes{
+public class Bombardero extends Jugadores.Personajes{
 
-	private int dano = 30;
+	private int dano;
 
-	public  Bombardero(String nombre, int dano) {
+	public  Bombardero(String nombre) {
 		super(nombre);
-		this.dano=dano;
+		this.dano=30;
 	}
 
 	public int dano(int dano) {

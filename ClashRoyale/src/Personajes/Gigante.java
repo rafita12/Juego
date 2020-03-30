@@ -6,13 +6,13 @@
 
 package Personajes;
 
-
 public class Gigante extends Jugadores.Personajes {
-	private int dano = 100;
+	
+	private int dano;
 
-	public Gigante(String nombre, int dano) {
+	public Gigante(String nombre) {
 		super(nombre);
-		this.dano = dano;
+		this.dano = 100;
 	}
 
 	public int dano(int dano) {

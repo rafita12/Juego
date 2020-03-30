@@ -9,7 +9,7 @@ package Personajes;
 
 public class Pers {
 
-	private int danoPersonaje;
+	private int dano;
 	private int cura;
 	private String[] listaPersonajes = new String[] { "Arqueros", "Bola de Fuego", "Bombardero", "Caballero", "Catapulta",
 			"Gigante", "Mago", "Princesa", "Principe", "Torre Infernal", "Torre Tesla" };
@@ -19,7 +19,7 @@ public class Pers {
 	 * @param danoPersonaje daño del personaje
 	 */
 	
-	public void atacar(int danoPersonaje) {
+	public void atacar(int dano) {
 		
 	}
 	

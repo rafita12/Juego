@@ -5,11 +5,11 @@ package Personajes;
  *@param dano   daño de la unidad
  */
 public class BolaDeFuego extends Jugadores.Personajes{
-	int dano=75;
+	int dano;
 	
-	public  BolaDeFuego(String nombre, int dano) {
+	public  BolaDeFuego(String nombre) {
 		super(nombre);
-		this.dano=dano;
+		this.dano=75;
 	}
 
 	public int dano(int dano) {

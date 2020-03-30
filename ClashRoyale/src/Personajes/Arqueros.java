@@ -8,11 +8,11 @@
 package Personajes;
 
 public class Arqueros extends Jugadores.Personajes {
-	private int dano = 50;
+	private int dano;
 	
-	public Arqueros(String nombre, int dano) {
+	public Arqueros(String nombre) {
 		super(nombre);
-		this.dano=dano;
+		this.dano=50;
 	}
 
 
