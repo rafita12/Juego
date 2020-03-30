@@ -5,7 +5,7 @@ import org.junit.Test;
 import arena.TorrePequena;
 
 
-public class TorreGraneTest {
+public class TorreGrandeTest {
 
 	@Test
 	public void TorreGtest() {
