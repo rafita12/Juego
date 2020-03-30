@@ -6,11 +6,12 @@
 
 package Personajes;
 
-public class TorreTesla {
+public class TorreTesla extends Jugadores.Personajes {
 
 	private int cura;
 
 	public TorreTesla(String nombre) {
+		super(nombre);
 		this.cura = 50;
 
 	}

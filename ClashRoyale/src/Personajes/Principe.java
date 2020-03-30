@@ -6,10 +6,11 @@
 
 package Personajes;
 
-public class Principe {
+public class Principe  extends Jugadores.Personajes {
 	private int dano;
 
 	public Principe(String nombre) {
+		super(nombre);
 		this.dano = 80;
 
 	}

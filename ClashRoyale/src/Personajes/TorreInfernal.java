@@ -6,11 +6,12 @@
 
 package Personajes;
 
-public class TorreInfernal {
+public class TorreInfernal  extends Jugadores.Personajes {
 
 	private int cura;
 
 	public TorreInfernal(String nombre) {
+		super(nombre);
 		this.cura = 75;
 	}
 
