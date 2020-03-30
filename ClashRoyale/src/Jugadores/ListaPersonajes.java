@@ -15,7 +15,7 @@ public class ListaPersonajes {
 		this.nPersonajes = 0;
 	}
 	
-	
+	//Metodo constructor para las pruebas
 	
 	public ListaPersonajes(int nPersonajes) {
 		this.nPersonajes = nPersonajes;

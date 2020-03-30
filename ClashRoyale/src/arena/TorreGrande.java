@@ -14,6 +14,8 @@ public class TorreGrande {
 		this.defensa = 500;
 		
 	}
+	
+	//Metodo constructor para las pruebas
 
 	public TorreGrande(int vida, int defensa) {
 		this.vida = 1000;

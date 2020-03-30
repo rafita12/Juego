@@ -19,6 +19,8 @@ public class Jugador {
 		this.turno=(int)(Math.random()*1+1);
 	}
 	
+	//Metodo constructor para las pruebas
+	
 	public Jugador(int turno) {
 		this.turno=turno;
 	}
