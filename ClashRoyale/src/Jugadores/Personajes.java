@@ -20,9 +20,15 @@ package Jugadores;
 			this.nombre = nombre;
 	}
 		
+		public String pruebaPers(){
+			
+			return this.nombre;
+	}
+		
 		/**
 		 *El metodo mostrar va a mostrar cada uno de los nombres de los
 		 *personajes elegidos por el jugador en consola.
+		 * @return 
 		 *
 		 */
 		
