@@ -22,6 +22,9 @@ public class Tablero {
 	    
 	    public void verTablero() {
 	        
+	    	System.out.println();
+	    	System.out.println();
+	    	
 	        for (int col = 0; col < tablero[0].length * 2 + 2; col++)
 	            System.out.print("-");
 	        System.out.println();
@@ -57,25 +60,25 @@ public class Tablero {
 					
 					//Torre grande inferior
 						
-					}else if(col>10 && col<20 && fil==(filTorre+27)) {
+					}else if(col>10 && col<19 && fil==(filTorre+27)) {
 						System.out.print("--");
 					}else if (fil == (filTorre+26) && col == 11) {
 		            		System.out.print("| ");
-						}else if (fil == (filTorre+26) && col == 19) {
+						}else if (fil == (filTorre+26) && col == 18) {
 		            		System.out.print(" |");
 						}else if (fil == (filTorre+25) && col == 11) {
 		            		System.out.print("| ");
-						}else if (fil == (filTorre+25) && col == 19) {
+						}else if (fil == (filTorre+25) && col == 18) {
 		            		System.out.print(" |");
 						}else if (fil == (filTorre+24) && col == 11) {
 		            		System.out.print("| ");
-						}else if (fil == (filTorre+24) && col == 19) {
+						}else if (fil == (filTorre+24) && col == 18) {
 		            		System.out.print(" |");
 						}else if (fil == (filTorre+23) && col == 11) {
 		            		System.out.print("| ");
-						}else if (fil == (filTorre+23) && col == 19) {
+						}else if (fil == (filTorre+23) && col == 18) {
 		            		System.out.print(" |");
-						}else if(col>10 && col<20 && fil==(filTorre+22)) {
+						}else if(col>10 && col<19 && fil==(filTorre+22)) {
 							System.out.print("--");
 							
 						//rio
@@ -84,13 +87,13 @@ public class Tablero {
 							System.out.print("--");
 						}else if(col>4 && col<25 && fil==(filTorre+14)) {
 							System.out.print("--");
-						}else if(col>27 && col<30 && fil==(filTorre+13)) {
+						}else if(col>26 && col<30 && fil==(filTorre+13)) {
 							System.out.print("--");
-						}else if(col>27 && col<30 && fil==(filTorre+14)) {
+						}else if(col>26 && col<30 && fil==(filTorre+14)) {
 							System.out.print("--");
-						}else if(col>-1 && col<2 && fil==(filTorre+13)) {
+						}else if(col>-1 && col<3 && fil==(filTorre+13)) {
 							System.out.print("--");
-						}else if(col>-1 && col<2 && fil==(filTorre+14)) {
+						}else if(col>-1 && col<3 && fil==(filTorre+14)) {
 							System.out.print("--");
 							
 						//puente derecho
@@ -99,20 +102,20 @@ public class Tablero {
 		            		System.out.print("| ");
 						}else if (fil == (filTorre+14) && col == 25) {
 		            		System.out.print("| ");
-						}else if (fil == (filTorre+13) && col == 27) {
-		            		System.out.print("| ");
-						}else if (fil == (filTorre+14) && col == 27) {
-		            		System.out.print("| ");
+						}else if (fil == (filTorre+13) && col == 26) {
+		            		System.out.print(" |");
+						}else if (fil == (filTorre+14) && col == 26) {
+		            		System.out.print(" |");
 		            		
 		            	//puente izquierdo
 						}else if (fil == (filTorre+13) && col == 4) {
 		            		System.out.print(" |");
 						}else if (fil == (filTorre+14) && col == 4) {
 		            		System.out.print(" |");
-						}else if (fil == (filTorre+13) && col == 2) {
-		            		System.out.print(" |");
-						}else if (fil == (filTorre+14) && col == 2) {
-		            		System.out.print(" |");
+						}else if (fil == (filTorre+13) && col == 3) {
+		            		System.out.print("| ");
+						}else if (fil == (filTorre+14) && col == 3) {
+		            		System.out.print("| ");
 							
 						//torre pequequeña superior izquierda
 							
@@ -143,7 +146,37 @@ public class Tablero {
 				            		System.out.print(" |");
 							}else if(col>23 && col<27 && fil==(filTorre+6)) {
 									System.out.print("--");
+				            	
+									
+							//torre pequequeña inferior izquierda
+									
+							}else if(col>2 && col<6 && fil==(filTorre+24)) {
+								System.out.print("--");
+							}else if (fil == (filTorre+23) && col == 3) {
+				            		System.out.print("| ");
+								}else if (fil == (filTorre+23) && col == 5) {
+				            		System.out.print(" |");
+								}else if (fil == (filTorre+22) && col == 3) {
+				            		System.out.print("| ");
+								}else if (fil == (filTorre+22) && col == 5) {
+				            		System.out.print(" |");
+								}else if(col>2 && col<6 && fil==(filTorre+21)) {
+									System.out.print("--");
 				            		
+				            //torre pequequeña inferior derecha
+									
+								}else if(col>23 && col<27 && fil==(filTorre+24)) {
+									System.out.print("--");
+								}else if (fil == (filTorre+23) && col == 24) {
+					            		System.out.print("| ");
+								}else if (fil == (filTorre+23) && col == 26) {
+					            		System.out.print(" |");
+								}else if (fil == (filTorre+22) && col == 24) {
+					            		System.out.print("| ");
+								}else if (fil == (filTorre+22) && col == 26) {
+					            		System.out.print(" |");
+								}else if(col>23 && col<27 && fil==(filTorre+21)) {
+										System.out.print("--");
 				            		
 					}else
 						System.out.print("  ");
