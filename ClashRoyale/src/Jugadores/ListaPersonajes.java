@@ -19,6 +19,13 @@ public class ListaPersonajes {
 	}
 	
 	
+	
+	public ListaPersonajes(int nPersonajes) {
+		this.nPersonajes = nPersonajes;
+	}
+	
+	
+	
 	/**
 	 *El metodo elegir elige de la clase Personajes aquellos
 	 *personajes definidos en las clases, corrigiendo el si se pone mas 
@@ -35,6 +42,7 @@ public class ListaPersonajes {
 	}
 		
 		/**
+		 * 
 		 *El metodo muestraLista muestra por consola
 		 *una lista de todos aquellos personajes elegidos
 		 *por los jugadores

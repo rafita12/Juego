@@ -10,11 +10,14 @@ package Jugadores;
 import Personajes.Pers;
 
 public class Jugador {
+	
 	private Pers [] listaPersonajes;
 	private int turno;	
+	
+	
 	public Jugador() {
 		this.listaPersonajes = new Pers[11];
-		this.turno=turno;
+		this.turno=(int)(Math.random()*1+1);;
 	}
 
 	
@@ -54,7 +57,7 @@ public class Jugador {
 	
 	
 	public int turnoJugador(int turno) {
-		turno = (int)(Math.random()*1+1);
+		
 		if (turno == 1) {
 			turno++;
 
