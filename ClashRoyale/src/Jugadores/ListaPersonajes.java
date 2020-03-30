@@ -18,39 +18,15 @@ public class ListaPersonajes {
 		this.nPersonajes = 0;
 	}
 
-	
-	public void elegir(Personajes personaje){
 		
-		int inx, i;
-		inx = buscaPersonajes(personaje);
-
-		if (inx == -1) {
-			this.nPersonajes--;
-		}
-		nPersonajes--;
-		for (i = inx; i < nPersonajes; i++) {
-			listaPersonajes[i] = listaPersonajes[i + 1];
-		}
+		public void elegir(Personajes p) {
+			if (this.nPersonajes == 100)
+				System.out.println("No hay memoria para más productos.");
+			else 
+				this.listaPersonajes[nPersonajes++]=p;
+	}
 		
-	}
-
-
-	public int buscaPersonajes(Personajes personaje) {
-
-		int inx = -1;
-		boolean enc = false;
-		for (int i = 0; !enc && i < listaPersonajes.length; i++) {
-			System.out.println("Introduce el nombre del personaje que deseas elegir para tu equipo: " + listaPersonajes);
-			Scanner nj = new Scanner(System.in);
-
-			if (listaPersonajes[i].equals(personaje)) {
-				enc = true;
-				inx = i;
-			}
-		}
-		return inx;
-	}
-	
+		
 	public void muestraLista() {
 		for(int i=0; i < this.nPersonajes; i++) {
 			this.listaPersonajes[i].mostrar();
