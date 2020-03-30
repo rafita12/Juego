@@ -4,6 +4,10 @@ import org.junit.Test;
 
 import Personajes.Arqueros;
 
+/**
+ *@author Rafael Berenguer Martin
+ *Prueba del daño de este personaje
+ */
 
 public class ArqueroTest {
 

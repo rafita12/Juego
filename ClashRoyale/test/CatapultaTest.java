@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import Personajes.Catapulta;
 
+/**
+ *@author Francisco Javier Frances Pardo
+ *Prueba del daño de este personaje
+ */
+
+
 class CatapultaTest {
 
 	@Test

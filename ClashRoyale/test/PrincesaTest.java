@@ -5,6 +5,12 @@ import org.junit.jupiter.api.Test;
 
 import Personajes.Princesa;
 
+/**
+ *@author Francisco Javier Frances Pardo
+ *Prueba de la cura de este personaje
+ */
+
+
 class PrincesaTest {
 
 	@Test

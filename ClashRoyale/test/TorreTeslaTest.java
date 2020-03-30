@@ -6,6 +6,12 @@ import org.junit.jupiter.api.Test;
 import Personajes.Arqueros;
 import Personajes.TorreTesla;
 
+/**
+ *@author Francisco Javier Frances Pardo
+ *Prueba del daño de este personaje
+ */
+
+
 class TorreTeslaTest {
 
 	@Test
