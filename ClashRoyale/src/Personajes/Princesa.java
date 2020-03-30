@@ -7,10 +7,10 @@
 package Personajes;
 
 public class Princesa {
-	private int cura = 150;
+	private int cura;
 
-	public Princesa(int cura) {
-		this.cura = cura;
+	public Princesa(String nombre) {
+		this.cura = 150;
 	}
 
 	public int cura(int cura) {

@@ -8,10 +8,10 @@ package Personajes;
 
 public class TorreInfernal {
 
-	private int cura = 75;
+	private int cura;
 
-	public TorreInfernal(int cura) {
-		this.cura = cura;
+	public TorreInfernal(String nombre) {
+		this.cura = 75;
 	}
 
 	public int cura(int cura) {

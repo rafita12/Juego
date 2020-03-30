@@ -8,10 +8,10 @@ package Personajes;
 
 public class TorreTesla {
 
-	private int cura = 50;
+	private int cura;
 
-	public TorreTesla(int cura) {
-		this.cura = cura;
+	public TorreTesla(String nombre) {
+		this.cura = 50;
 
 	}
 	

@@ -7,10 +7,10 @@
 package Personajes;
 
 public class Principe {
-	private int dano = 80;
+	private int dano;
 
-	public Principe(int dano) {
-		this.dano = dano;
+	public Principe(String nombre) {
+		this.dano = 80;
 
 	}
 
