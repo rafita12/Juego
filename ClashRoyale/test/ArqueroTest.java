@@ -8,9 +8,9 @@ import Personajes.Arqueros;
 public class ArqueroTest {
 
 	@Test
-	public void arquero_test() {
+	public void empP1_Test() {
 		Arqueros arquero = new Arqueros("Arquera", 50);
-		assertEquals(50, arquero.dano(50));
+		assertEquals(50, arquero.getDano());
 	}
 
 }
