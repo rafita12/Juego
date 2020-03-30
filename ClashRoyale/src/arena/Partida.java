@@ -4,9 +4,35 @@
 
 package arena;
 
-public class PruebaTabla {
+import Jugadores.ListaPersonajes;
+import Jugadores.Personajes;
+import Personajes.Arqueros;
+import Personajes.BolaDeFuego;
+import Personajes.Caballero;
+import Personajes.Gigante;
+import Personajes.Mago;
+import Personajes.Princesa;
+
+public class Partida {
 
 	public static void main(String[] args) {
+		
+		
+		ListaPersonajes lp=new ListaPersonajes();
+		
+		lp.elegir(new Arqueros("Arquera"));
+		lp.elegir(new BolaDeFuego("Bola de Fuego"));
+		lp.elegir(new Gigante("Gigante"));
+		lp.elegir(new Mago("Mago"));
+		lp.elegir(new Caballero("Caballero"));
+		lp.elegir(new Princesa("Princesa"));
+		
+		
+		
+		
+		
+		
+		//Escrito por pantalla
 		
 		int nTurno = 1;
 		

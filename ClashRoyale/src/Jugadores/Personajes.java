@@ -12,7 +12,10 @@ package Jugadores;
 		public Personajes(String nombre){
 		
 			this.nombre = nombre;
+	}
 		
+	public void mostrar(){
+		System.out.println(nombre);
 	}
 
 }
