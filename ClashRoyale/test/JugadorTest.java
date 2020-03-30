@@ -14,7 +14,7 @@ class JugadorTest {
 
 	@Test
 	public void turnoJugadortest() {
-		Jugador jg =new Jugador("Bombardero",1);
+		Jugador jg =new Jugador(1);
 		assertEquals(1,jg.turnoJugador());
 	}
 

@@ -17,8 +17,14 @@ public class Jugador {
 	
 	public Jugador() {
 		this.listaPersonajes = new Pers[11];
-		this.turno=(int)(Math.random()*1+1);;
+		this.turno=(int)(Math.random()*1+1);
 	}
+	
+	public Jugador(int turno) {
+		this.turno=turno;
+	}
+	
+	
 
 	
 	/**
@@ -56,7 +62,7 @@ public class Jugador {
 	 */
 	
 	
-	public int turnoJugador(int turno) {
+	public int turnoJugador() {
 		
 		if (turno == 1) {
 			turno++;
