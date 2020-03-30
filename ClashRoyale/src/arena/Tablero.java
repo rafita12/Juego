@@ -19,6 +19,17 @@ public class Tablero {
 	        this.fil=0;
 	        this.filTorre=1;
 	    }
+	  
+	  /**
+		 *El metodo verTablero va a mostrar por pantalla 
+		 *el tablero al completo(todos sus alrededores) y su 
+		 *interior en el que nos vamos a encontrar con cada todo
+		 *y el rio de separacion de campos.
+		 *
+		 *Cada dibujo tiene su comentario antes de ser manipulado.
+		 *
+		 */
+		
 	    
 	    public void verTablero() {
 	        
@@ -33,7 +44,7 @@ public class Tablero {
 	            System.out.print("|");
 	            for (int col = 0; col < tablero[fil].length; col++)
 	            	
-	            	//Torre grande superior
+	            	//Torre grande superior.
 	            	
 	            	
 	            	if (col>10 && col<19 && fil==filTorre) {
@@ -58,7 +69,7 @@ public class Tablero {
 					}else if(col>10 && col<19 && fil==(filTorre+5)) {
 						System.out.print("--");
 					
-					//Torre grande inferior
+					//Torre grande inferior.
 						
 					}else if(col>10 && col<19 && fil==(filTorre+27)) {
 						System.out.print("--");
@@ -81,7 +92,7 @@ public class Tablero {
 						}else if(col>10 && col<19 && fil==(filTorre+22)) {
 							System.out.print("--");
 							
-						//rio
+						//Rio.
 							
 						}else if(col>4 && col<25 && fil==(filTorre+13)) {
 							System.out.print("--");
@@ -96,7 +107,7 @@ public class Tablero {
 						}else if(col>-1 && col<3 && fil==(filTorre+14)) {
 							System.out.print("--");
 							
-						//puente derecho
+						//Puente derecho.
 							
 						}else if (fil == (filTorre+13) && col == 25) {
 		            		System.out.print("| ");
@@ -107,7 +118,8 @@ public class Tablero {
 						}else if (fil == (filTorre+14) && col == 26) {
 		            		System.out.print(" |");
 		            		
-		            	//puente izquierdo
+		            	//Puente izquierdo.
+		            		
 						}else if (fil == (filTorre+13) && col == 4) {
 		            		System.out.print(" |");
 						}else if (fil == (filTorre+14) && col == 4) {
@@ -117,7 +129,7 @@ public class Tablero {
 						}else if (fil == (filTorre+14) && col == 3) {
 		            		System.out.print("| ");
 							
-						//torre pequequeña superior izquierda
+						//Torre pequequeña superior izquierda.
 							
 						}else if(col>2 && col<6 && fil==(filTorre+3)) {
 							System.out.print("--");
@@ -132,7 +144,7 @@ public class Tablero {
 							}else if(col>2 && col<6 && fil==(filTorre+6)) {
 								System.out.print("--");
 			            		
-			            //torre pequequeña superior derecha
+			            //Torre pequequeña superior derecha.
 								
 							}else if(col>23 && col<27 && fil==(filTorre+3)) {
 								System.out.print("--");
@@ -148,7 +160,7 @@ public class Tablero {
 									System.out.print("--");
 				            	
 									
-							//torre pequequeña inferior izquierda
+							//Torre pequequeña inferior izquierda.
 									
 							}else if(col>2 && col<6 && fil==(filTorre+24)) {
 								System.out.print("--");
@@ -163,7 +175,7 @@ public class Tablero {
 								}else if(col>2 && col<6 && fil==(filTorre+21)) {
 									System.out.print("--");
 				            		
-				            //torre pequequeña inferior derecha
+				            //Torre pequequeña inferior derecha.
 									
 								}else if(col>23 && col<27 && fil==(filTorre+24)) {
 									System.out.print("--");

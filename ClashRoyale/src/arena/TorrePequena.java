@@ -12,7 +12,11 @@ public class TorrePequena {
 	public TorrePequena() {
 		this.vida = 500;
 		this.defensa = 250;
-		
+	}
+	
+	public TorrePequena(int vida, int defensa) {
+		this.vida = 500;
+		this.defensa = 250;
 	}
 
 	public int getVida() {
@@ -30,6 +34,11 @@ public class TorrePequena {
 	public void setDefensa(int defensa) {
 		this.defensa = defensa;
 	}
+	
+	/**
+	 *El metodo consultaVida va a mostrar la vida y la defensa que tiene la torre.
+	 *
+	 */
 	
 	public void consultaVida(){
 	

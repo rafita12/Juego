@@ -14,17 +14,32 @@ public class ListaPersonajes {
 	private int nPersonajes;
 
 	public ListaPersonajes() {
-		this.listaPersonajes = new Personajes[11];
+		this.listaPersonajes = new Personajes[6];
 		this.nPersonajes = 0;
 	}
+	
+	
+	/**
+	 *El metodo elegir elige de la clase Personajes aquellos
+	 *personajes definidos en las clases, corrigiendo el si se pone mas 
+	 *de 6 personajes.
+	 *
+	 */
 
 		
 		public void elegir(Personajes p) {
-			if (this.nPersonajes == 100)
-				System.out.println("No hay memoria para más productos.");
+			if (this.nPersonajes == 6)
+				System.out.println("No hay espacio para más de 6 personajes.");
 			else 
 				this.listaPersonajes[nPersonajes++]=p;
 	}
+		
+		/**
+		 *El metodo muestraLista muestra por consola
+		 *una lista de todos aquellos personajes elegidos
+		 *por los jugadores
+		 *
+		 */
 		
 		
 	public void muestraLista() {

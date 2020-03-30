@@ -31,6 +31,11 @@ public class TorreGrande {
 		this.defensa = defensa;
 	}
 	
+	/**
+	 *El metodo consultaVida va a mostrar la vida y la defensa que tiene la torre.
+	 *
+	 */
+	
 	public void consultaVida(){
 	
 		System.out.println();
