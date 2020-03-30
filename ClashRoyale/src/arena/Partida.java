@@ -9,25 +9,43 @@ import Jugadores.Personajes;
 import Personajes.Arqueros;
 import Personajes.BolaDeFuego;
 import Personajes.Caballero;
+import Personajes.Catapulta;
 import Personajes.Gigante;
 import Personajes.Mago;
 import Personajes.Princesa;
+import Personajes.TorreInfernal;
 
 public class Partida {
 
 	public static void main(String[] args) {
 		
 		
-		ListaPersonajes lp=new ListaPersonajes();
+		ListaPersonajes lp1=new ListaPersonajes();
+		ListaPersonajes lp2=new ListaPersonajes();
 		
-		lp.elegir(new Arqueros("Arquera"));
-		lp.elegir(new BolaDeFuego("Bola de Fuego"));
-		lp.elegir(new Gigante("Gigante"));
-		lp.elegir(new Mago("Mago"));
-		lp.elegir(new Caballero("Caballero"));
-		lp.elegir(new Princesa("Princesa"));
+		System.out.println("Personajes del jugador 1: ");
+		System.out.println();
+		lp1.elegir(new Arqueros("Arquera"));
+		lp1.elegir(new BolaDeFuego("Bola de Fuego"));
+		lp1.elegir(new Gigante("Gigante"));
+		lp1.elegir(new Mago("Mago"));
+		lp1.elegir(new Caballero("Caballero"));
+		lp1.elegir(new Princesa("Princesa"));
+		lp1.muestraLista();
+		System.out.println("---------------");
+		System.out.println("Personajes del jugador 2: ");
+		System.out.println();
+		lp2.elegir(new Arqueros("Arquera"));
+		lp2.elegir(new BolaDeFuego("Bola de Fuego"));
+		lp2.elegir(new Gigante("Gigante"));
+		lp2.elegir(new Caballero("Caballero"));
+		lp2.elegir(new TorreInfernal("Torre Infernal"));
+		lp2.elegir(new Catapulta("Catapulta"));
+		lp2.muestraLista();
 		
-		
+		System.out.println();
+		System.out.println("---------------");
+		System.out.println();
 		
 		
 		
