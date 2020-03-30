@@ -32,7 +32,7 @@ public class Mago extends Jugadores.Personajes {
 	}
 
 	public int getCura() {
-		return dano;
+		return cura;
 	}
 
 	public void setCura(int cura) {
