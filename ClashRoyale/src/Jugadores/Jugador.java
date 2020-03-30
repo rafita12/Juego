@@ -65,13 +65,13 @@ public class Jugador {
 	public int turnoJugador() {
 		
 		if (turno == 1) {
-			turno++;
+
 
 		} else if (turno == 2) {
-			turno--;
+
 
 		}
-		System.out.println("Es el turno del jugador " + turno);
+
 		return turno;
 
 	}
