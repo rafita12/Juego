@@ -1,12 +1,16 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import Personajes.Gigante;
+
 class GiganteTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void Gigante_test() {
+		Gigante gigante = new Gigante("Gigante", 100);
+		assertEquals(100, gigante.getDano());
 	}
 
 }

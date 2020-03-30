@@ -21,11 +21,11 @@ public class TorreTesla extends Jugadores.Personajes {
 		this.cura=cura;
 	}
 
-	public int getDano() {
+	public int getCura() {
 		return cura;
 	}
 
-	public void setDano(int cura) {
+	public void setCura(int cura) {
 		this.cura = cura;
 	}
 
