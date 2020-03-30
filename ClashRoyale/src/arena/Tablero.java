@@ -183,11 +183,6 @@ public class Tablero {
 	            
 	            
 	            
-	           
-	           
-	           
-	            
-	            
 	            System.out.println("|");
 	            }
 	            for (int col = 0; col < tablero[0].length * 2 + 2; col++)

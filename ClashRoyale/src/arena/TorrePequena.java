@@ -7,47 +7,38 @@ package arena;
 public class TorrePequena {
 
 	private int vida;
-	private char tamano[][];
+	private int defensa;
 
-	public TorrePequena(int vida, int tamano) {
+	public TorrePequena() {
+		this.vida = 500;
+		this.defensa = 250;
 		
-		this.vida = vida;
-		this.tamano = new char[tamano][tamano];
 	}
 
-	public void implementarTorrePequena() {
-
-	
-	 for (int col = 0; col < tamano[0].length * 2 + 2; col++)
-         System.out.print("-");
-     System.out.println();
-     for (int fil = 0; fil < tamano.length; fil++) {
-         System.out.print("|");
-         for (int col = 0; col < tamano[fil].length; col++)
-                     System.out.print("  ");
-                 
-         System.out.println("|");
-         }
-         for (int col = 0; col < tamano[0].length * 2 + 2; col++)
-             System.out.print("-");
-         System.out.println();
-	}
-	
-	
 	public int getVida() {
 		return vida;
 	}
-
-
 
 	public void setVida(int vida) {
 		this.vida = vida;
 	}
 
-
-
-	public void consulta() {
-		System.out.println();
+	public int getDefensa() {
+		return defensa;
 	}
+
+	public void setDefensa(int defensa) {
+		this.defensa = defensa;
+	}
+	
+	public void consultaVida(){
+	
+		System.out.println();
+		System.out.println("Vida de la torre: " + this.vida);
+		System.out.println("Defensa de la torre: " + this.defensa);
+	
+	}
+	
+	
 }
 

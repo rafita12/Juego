@@ -7,29 +7,36 @@ package arena;
 public class TorreGrande {
 
 	private int vida;
-	private char TorreGrande[][];
+	private int defensa;
 
-	public TorreGrande(int vida, int tamano) {
-		this.vida = vida;
-		this.TorreGrande = new char[tamano][tamano];
+	public TorreGrande() {
+		this.vida = 1000;
+		this.defensa = 500;
+		
 	}
 
-	public void implementarTorreGrande() {
+	public int getVida() {
+		return vida;
+	}
 
+	public void setVida(int vida) {
+		this.vida = vida;
+	}
+
+	public int getDefensa() {
+		return defensa;
+	}
+
+	public void setDefensa(int defensa) {
+		this.defensa = defensa;
+	}
 	
-	 for (int col = 0; col < TorreGrande[0].length * 2 + 2; col++)
-         System.out.print("-");
-     System.out.println();
-     for (int fil = 0; fil < TorreGrande.length; fil++) {
-         System.out.print("|");
-         for (int col = 0; col < TorreGrande[fil].length; col++)
-                     System.out.print("  ");
-                 
-         System.out.println("|");
-         }
-         for (int col = 0; col < TorreGrande[0].length * 2 + 2; col++)
-             System.out.print("-");
-         System.out.println();
+	public void consultaVida(){
+	
+		System.out.println();
+		System.out.println("Vida de la torre: " + this.vida);
+		System.out.println("Defensa de la torre: " + this.defensa);
+	
 	}
 	
 	
