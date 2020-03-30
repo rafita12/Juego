@@ -14,7 +14,11 @@ public class Arqueros extends Jugadores.Personajes {
 		super(nombre);
 		this.dano=50;
 	}
-
+	
+	public Arqueros(String nombre, int dano) {
+		super(nombre);
+		this.dano=dano;
+	}
 
 	public int dano(int dano) {
 		return dano;
