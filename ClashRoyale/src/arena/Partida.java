@@ -1,11 +1,13 @@
 /**
  *@author Rafael Martín Berenguer
+ *
+ *Muestra el tablero por la consola junto a los personaje de los jugadores 
+ *y la vida de las torres
  */
 
 package arena;
 
 import Jugadores.ListaPersonajes;
-import Jugadores.Personajes;
 import Personajes.Arqueros;
 import Personajes.BolaDeFuego;
 import Personajes.Caballero;
@@ -23,6 +25,8 @@ public class Partida {
 		ListaPersonajes lp1=new ListaPersonajes();
 		ListaPersonajes lp2=new ListaPersonajes();
 		
+		//Personajes del jugador 1
+		
 		System.out.println("Personajes del jugador 1: ");
 		System.out.println();
 		lp1.elegir(new Arqueros("Arquera"));
@@ -33,6 +37,9 @@ public class Partida {
 		lp1.elegir(new Princesa("Princesa"));
 		lp1.muestraLista();
 		System.out.println("---------------");
+		
+		//Personajes del jugador 2
+		
 		System.out.println("Personajes del jugador 2: ");
 		System.out.println();
 		lp2.elegir(new Arqueros("Arquera"));

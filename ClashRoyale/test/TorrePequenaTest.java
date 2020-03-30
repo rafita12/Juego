@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import arena.TorrePequena;
-import Personajes.Arqueros;
+
 
 
 public class TorrePequenaTest {

@@ -7,8 +7,8 @@ package arena;
 public class Tablero {
 	
 	  private char [][] tablero ;
-	  private int col ;
-	  private int fil ;
+	  private int fil;
+	  private int col;
 	  private int filTorre;
 	  
 
