@@ -7,16 +7,15 @@
 
 package Jugadores;
 
-import Personajes.Pers;
 
 public class Jugador {
 	
-	private Pers [] listaPersonajes;
+	private Personajes [] listaPersonajes;
 	private int turno;	
 	
 	
 	public Jugador() {
-		this.listaPersonajes = new Pers[11];
+		this.listaPersonajes = new Personajes[11];
 		this.turno=(int)(Math.random()*1+1);
 	}
 	
